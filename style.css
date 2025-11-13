@@ -1,0 +1,103 @@
+/*
+ * style.css - CÓDIGO ATUALIZADO (Sem Posicionamento Absoluto)
+ * Foco: Logo de 200px de LARGURA e Header com Altura Mínima
+ */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF; /* Fundo Branco */
+    color: #333; /* Cor do texto padrão */
+}
+
+/* Estilo do Cabeçalho (Header) */
+header {
+    background-color: #0A1931; /* Azul Marinho */
+    color: #FFFFFF;
+    min-height: 70px; /* Garante que o azul não fique menor que 70px */
+    padding: 15px 5%; /* Espaçamento interno */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centraliza verticalmente o menu */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Permitir que o conteúdo exceda o limite visual, se necessário */
+    overflow: visible; 
+}
+
+/* Estilo para a Imagem do Logotipo (AGORA USANDO LARGURA) */
+.logo-img {
+    width: 200px; /* LOGO GRANDE na largura */
+    height: auto; /* Altura se ajusta automaticamente */
+    display: block; 
+}
+
+/* Estilo da Navegação (Menu) */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #FF5722; /* Destaque Laranja ao passar o mouse */
+}
+
+/* Removendo o h1 que não será mais usado, caso o logo tivesse texto */
+.logo h1 {
+    display: none; 
+}
+
+/* Estilo do Rodapé (Footer) */
+footer {
+    background-color: #0A1931; /* Azul Marinho */
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 5%;
+    margin-top: 30px;
+}
+
+/* Estilo dos Títulos */
+h2 {
+    color: #0A1931; /* Azul Marinho */
+    border-bottom: 3px solid #FF5722; /* Linha de destaque Laranja */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilo dos Botões de Ação */
+.btn-destaque {
+    background-color: #FF5722; /* Laranja */
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.btn-destaque:hover {
+    background-color: #E64A19; /* Laranja mais escuro */
+}
+
+/* Conteúdo Principal */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
