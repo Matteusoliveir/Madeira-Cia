@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossa História | Madeira&Cia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="madeira-removebg-preview.png" alt="Logotipo Madeira e Cia" class="logo-img">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Início</a></li>
+                <li><a href="Produtos-Catálogo.html">Produtos</a></li>
+                <li><a href="Serviços.html">Serviços</a></li>
+                <li><a href="Sobre Nós.html">Sobre Nós</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Nossa História: Compromisso e Qualidade em Madeira.</h2>
+
+        <section id="a-raiz">
+            <h3>A Raiz da Madeira&Cia</h3>
+            <p>Fundada [Ano de Fundação] na **Estrada do Monteiro, 950**, a Madeira&Cia nasceu do compromisso em oferecer ao Rio de Janeiro os melhores materiais de madeira para construção e marcenaria. Entendemos o valor de um bom material e a importância dele para a durabilidade da sua obra.</p>
+        </section>
+
+        <section id="missao-valores">
+            <h3>Missão e Valores</h3>
+            <p>Nossa Missão é ser a principal parceira do cliente, oferecendo produtos de alta qualidade, preços competitivos e um serviço especializado.</p>
+            <ul>
+                <li>**Qualidade Inquestionável:** Trabalhamos apenas com fornecedores de confiança.</li>
+                <li>**Atendimento:** Ouvir e orientar o cliente para a melhor solução.</li>
+                <li>**Compromisso com o RJ:** Entregar em todo o estado com rapidez e segurança.</li>
+            </ul>
+        </section>
+
+        <section id="diferencial">
+            <h3>Nosso Diferencial</h3>
+            <p>De chapas de MDF e Compensados a madeiras brutas e telhas, nosso catálogo é completo. Com o serviço de **Corte Sob Medida** e nossa **Logística de Entrega para todo o RJ**, garantimos que seu projeto terá a eficiência e a precisão que merece.</p>
+        </section>
+
+        <a href="Contato.html" class="btn-destaque">VISITE NOSSA LOJA!</a>
+    </div>
+
+    <footer>
+        <p>Endereço: Estrada do Monteiro, 950 | Contato: (21) 2411-0611</p>
+        <p>&#169; 2023 Madeira&Cia. Todos os direitos reservados. | 
+            Instagram: <a href="https://www.instagram.com/madeiraeciarj" target="_blank" style="color: #FFFFFF; text-decoration: none; font-weight: bold;">@madeiraeciarj</a>
+        </p>
+    </footer>
+
+</body>
+</html>
